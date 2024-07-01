@@ -27,5 +27,5 @@ Evaluar si existen diferencias significativas en el número de vuelos reservados
 ## 📋 Los Datos
 
 Los archivo son 2 csv diferentes que contienen la siguientes variables :
-- `Loyalty Number`,`Year`, Month`, `Flights Booked`, `Flights with Companions`, `Total Flights`, `Distance`, ` Points Accumulated`, `Points Redeemed`, `Dollar Cost Points Redeemed `, `Country`, `Province`, `City`, `Postal Code `, ` Gender`, `Education `, `Salary`, `Marital Status`, `Loyalty Card`, `CLV`, `Enrollment Type`, 'Enrollment Year`, `Enrollment Month `, `Cancellation Year`, `Cancellation Month' 
+`Loyalty Number`,`Year`, Month`, `Flights Booked`, `Flights with Companions`, `Total Flights`, `Distance`, ` Points Accumulated`, `Points Redeemed`, `Dollar Cost Points Redeemed `, `Country`, `Province`, `City`, `Postal Code `, ` Gender`, `Education `, `Salary`, `Marital Status`, `Loyalty Card`, `CLV`, `Enrollment Type`, 'Enrollment Year`,`Enrollment Month `, `Cancellation Year`, `Cancellation Month' 
 
