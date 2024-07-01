@@ -3,53 +3,29 @@
  El  objetivo es manjear las librerías de pandas y sus funcionalidades, asi como la limpieza de los datos junto con el analisis de datos mediamte distintas técnicas estadisticas y la realiazción de A/B testin
  
 
+## 🗂️ Fases del Ejercicio
 
-## 🗂️ Fases del Proyecto
-
-### 🔍 Fase 1: Análisis Exploratorio de Datos (EDA)
+### 🔍 Fase 1: Exploración y Limpieza
 
 Realizar un análisis exploratorio detallado del conjunto de datos para comprender sus características y familiarizarnos con la información disponible.
+Tambien es necesario conocer las distintas tecnicas de limpieza de datos que incluyen la gestión de  nulos, estandarización de las variables y tratamiento de duplicados.
 
-### 🛠️ Fase 2: Transformación de los Datos
+### 🛠️ Fase 2: Visualización
 
-Realizar la limpieza, normalización, conversión de tipos de datos y aplicación de reglas empresariales específicas para preparar los datos para el análisis. Esto incluye:
-- Reemplazar valores de la columna `Gender` por "Male" y "Female".
-- Convertir columnas de tipo string a tipo numérico donde sea necesario.
-- Eliminar valores duplicados y corregir valores inconsistentes.
-- Corregir errores tipográficos en columnas categóricas.
-- Eliminar columnas redundantes.
+Uso de herramientas de visualizacion para contestar a la siguientes preguntas
+- ¿Cómo se distribuye la cantidad de vuelos reservados por mes durante el año?
+- ¿Existe una relación entre la distancia de los vuelos y los puntos acumulados por los clientes?
+- ¿Cuál es la distribución de los clientes por provincia o estado
+- Cómo se compara el salario promedio entre los diferentes niveles educativos de los clientes?
+- ¿Cuál es la proporción de clientes con diferentes tipos de tarjetas de fidelidad?
+- Cómo se distribuyen los clientes según su estado civil y género?
 
-### 🏗️ Fase 3: Diseño de BBDD e Inserción de los Datos
+### 🏗️ Fase 3: Evaluación de Diferencias en Reservas de Vuelos por Nivel Educativo
+Evaluar si existen diferencias significativas en el número de vuelos reservados según el nivel educativo de los clientes mediante la aplicacion de técnicas de A/B Testing y realizando un anlaisis descriptivo
 
-Crear la estructura de la base de datos y realizar la inserción de datos inicial:
-- Definir la estructura de la base de datos, identificando tablas, claves primarias y foráneas.
-- Crear la base de datos utilizando herramientas aprendidas en el módulo 2.
-- Insertar los datos de los empleados en la base de datos.
-
-### 🧪 Fase 4: Problema de A/B Testing
-
-Determinar la relación entre el nivel de satisfacción en el trabajo y la rotación de empleados:
-- Crear dos grupos basados en el nivel de satisfacción en el trabajo.
-- Calcular la tasa de rotación en cada grupo.
-- Realizar un análisis estadístico para determinar diferencias significativas.
-- Analizar los resultados y calcular la magnitud de la relación.
-
-### ⚙️ Fase 5: Creación de una ETL
-
-Automatizar la extracción, transformación y carga de datos:
-- Desarrollar funciones para extraer datos desde diversas fuentes.
-- Aplicar las transformaciones necesarias para garantizar la calidad de los datos.
-- Crear la base de datos y desarrollar funciones para la inserción de datos transformados.
-
-### 📊 Fase 6: Reporte de los Resultados
-
-Generar un informe detallado con visualizaciones en Python:
-- Crear un informe completo con análisis descriptivos y visualizaciones.
-- Presentar tendencias, áreas de mejora y fortalezas dentro de la empresa.
 
 ## 📋 Los Datos
 
-Las columnas del DataFrame incluyen:
-- `Age`, `Attrition`, `BusinessTravel`, `DailyRate`, `Department`, `DistanceFromHome`, `Education`, `EducationField`, `EmployeeCount`, `EmployeeNumber`, `EnvironmentSatisfaction`, `Gender`, `HourlyRate`, `JobInvolvement`, `JobLevel`, `JobRole`, `JobSatisfaction`, `MaritalStatus`, `MonthlyIncome`, `MonthlyRate`, `NumCompaniesWorked`, `Over18`, `OverTime`, `PercentSalaryHike`, `PerformanceRating`, `RelationshipSatisfaction`, `StandardHours`, `StockOptionLevel`, `TotalWorkingYears`, `TrainingTimesLastYear`, `WorkLifeBalance`, `YearsAtCompany`, `YearsInCurrentRole`, `YearsSinceLastPromotion`, `YearsWithCurrManager`, `SameAsMonthlyIncome`, `DateBirth`, `Salary`, `RoleDepartament`, `NumberChildren`, `RemoteWork`.
+Los archivo son 2 csv diferentes que contienen la siguientes variables :
+- `Loyalty Number`, `Year`, Month`, `Flights Booked `, ` Flights with Companions`, `Total Flights   `, `Distance`, ` Points Accumulated `, `Points Redeemed `, `Dollar Cost Points Redeemed `, `Country`, `Province`, `City`, `Postal Code  `, `  Gender`, ` Education `, `Salary`, `Marital Status`, `Loyalty Card`, `CLV`, `Enrollment Type`,   Enrollment Year   `, `Enrollment Month `, `Cancellation Year`, `Cancellation Month 
 
-Cada columna proporciona información valiosa sobre los empleados, desde datos demográficos hasta deta
